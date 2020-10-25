@@ -1,4 +1,4 @@
-baseURL = "https://thedancephysio.github.io/website/"
+baseURL = "https://thedancephysio.github.io/web/"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 
