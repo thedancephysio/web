@@ -1,7 +1,7 @@
 baseURL = "https://thedancephysio.github.io/web/"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
-
+publishDir = "docs"
 # Plugins
 [params.plugins]
 
