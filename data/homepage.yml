@@ -1,0 +1,217 @@
+# homepage
+homepage:
+  head:
+    title: "The Dance Physio"
+# showcase
+showcase:
+  enable: true
+  title: "The Dance Physio"
+  subtitle: "Physiotherapy for Dancers"
+  description: "<p>Hi! My name is Jessica Lai. I'm a professional dancer, multiple times national champion & dance physiotherapist.</p>
+  <p>
+  Physio service offered: Consults in person & online, educational workshops
+Dance service offered: dance individual privates & group lessons</p>"
+  image:
+    alt: "Physiotherapist Jessica Lai"
+    x: "img/showcase/showcase.png"
+    _2x: "img/who-am-i/JessPhysio@2x.jpg"
+  imageMobile:
+    alt: "Physiotherapist Jessica Lai"
+    x: "img/who-am-i/JessPhysio.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#contact"
+
+  socialLinks:
+    # - icon: "youtube"
+    #   URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/the.dancers.physio/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/thedancersphysio"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    Hi! My name is Jessica Lai. I am a professional dancer, multiple times national champion & dance physiotherapist.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/company/radity/"
+  image:
+    x: "img/who-am-i/JessCircle.png"
+    _2x: "img/who-am-i/JessCircle.png"
+
+# education
+education:
+  enable: false
+  title: "Education"
+  items:
+    - university: "University of Waterloo"
+      year: "2012-2017"
+      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
+
+    - university: "Sir John A Macdonald CI"
+      year: "2009-2012"
+      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
+
+# experience
+experience:
+  enable: false
+  title: "Experience"
+  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/company/radity/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Sr. Front-End Developer"
+      company: "Radity"
+      duration: "Feb 2011 - Sep 2019"
+
+    - title: "Sr. Front-End Developer"
+      company: "Textic"
+      duration: "Apr 2010 - Jan 2011"
+
+    - title: "Jr. Front-End Developer"
+      company: "Cyberse"
+      duration: "Jun 2009 - Mar 2010"
+
+# Client & Work
+client_and_work:
+  title: "Clients & Works"
+  enable: false
+
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Radity Finance - UI Kit"
+      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/radity-finance.jpg"
+        _2x: "img/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "Swiss Fintech Website"
+      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/swissfintech.jpg"
+        _2x: "img/works/swissfintech@2x.jpg"
+      is_even: false
+
+    - title: "Robo Advisor"
+      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+    - name: "Jaime Jesus"
+      position: "Latin Dance Australia, Director"
+      content: "Can not recommend Jess highly enough! She got me through one of my worst injuries in my dance career and got me back to 100%... I have had no issues ever since! Professional, reliable, knowledgeable and caring! Have a dance injury? You now have the Dancer's Physio…"
+      image:
+        x: "img/testimonials/JaimeJesus.png"
+        _2x: "img/testimonials/JaimeJesus@2x.png"
+
+    - name: "Jessica Charter"
+      position: "Dancer, London, UK"
+      content: "In my 8 years of dancing I have taken lessons from 500+ teachers all of all over the world, very few have explained the dance techniques Jessica has taught in such detail and communicated them in a way that is easy to understand. I only wish I had the knowledge sooner! Thank you so much Jessica, can’t wait for more!"
+      image:
+        x: "img/testimonials/JessicaCharter.png"
+        _2x: "img/testimonials/JessicaCharter@2x.png"
+
+    - name: "Steffi Audrelia"
+      position: "Dancer, Sydney, Australia"
+      content: "Jessica is very thorough in her consultation especially in any dancer-related injury. She created an exercise program customised to my injury. She is very knowledgeable and patient. Would definitely recommend her!"
+      image:
+        x: "img/testimonials/SteffiAudrelia.png"
+        _2x: "img/testimonials/SteffiAudrelia@2x.png"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: '<a href="tel:+61405442177">+61 405 442 177</a>'
+  email:
+    title: "Email"
+    email: '<a href="mailto:jessicalai.physiotherapist@gmail.com">jessicalai.physiotherapist@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Sydney, Australia"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
