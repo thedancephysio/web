@@ -22,10 +22,11 @@
         <p class="lead">
           {{ .Site.Data.homepage.showcase.description | safeHTML }}
         </p>
-        <div class="row platform-links">
-          <div class="col-12">
+        <div class="row">
+          <div class="col-12 col-md-6 my-auto my-auto">
             <a
               href="{{ .Site.Data.homepage.showcase.button.URL | absURL }}"
+              target="_blank"
               class="btn btn-primary"
             >
               <i class="{{ .Site.Data.homepage.showcase.button.icon }}"></i>

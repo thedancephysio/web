@@ -10843,8 +10843,8 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, tex
 
 @media (min-width:992px) {
   .section {
-    padding-top: 80px;
-    padding-bottom: 80px
+    padding-top: 10px;
+    padding-bottom: 10px
   }
 
   .section .row.row--padded {
@@ -11037,7 +11037,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, tex
   }
 
   .header {
-    padding-top: 35px
+    padding-top: 0px
   }
 
   .header .navbar {
@@ -11355,9 +11355,10 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, tex
 .footer .navbar-nav {
   display: -webkit-box;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  flex-direction: column;
+  flex-direction: row;
+  align-self: stretch;
   -webkit-box-pack: start;
   justify-content: flex-start;
   -webkit-box-align: center;
@@ -11369,7 +11370,11 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, tex
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     flex-direction: row;
-    align-self: stretch
+    align-self: stretch;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center
   }
 }
 
@@ -11385,6 +11390,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, tex
   color: #fff;
   padding-top: 4px;
   padding-bottom: 4px;
+  padding: 0 8px;
   min-height: 50px;
   white-space: nowrap
 }
@@ -11394,7 +11400,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, tex
     display: -webkit-box;
     display: flex;
     font-size: 14px;
-    padding: 0 8px
+    padding: 8 8px
   }
 }
 
@@ -11409,8 +11415,8 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, tex
   -webkit-box-align: center;
   align-items: center;
   position: relative;
-  margin-bottom: -20px;
-  padding-top: 120px
+  margin-bottom: 0px;
+  padding-top: 80px
 }
 
 .rad-showcase__bg {
@@ -11548,6 +11554,6 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, tex
   }
 
   .rad-showcase+section {
-    margin-top: -125px
+    margin-top: 0px
   }
 }
