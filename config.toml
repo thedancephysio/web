@@ -1,4 +1,5 @@
 baseURL = "https://jesslai.com/"
+Title = "The Dance Physio"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 publishDir = "docs"
@@ -61,7 +62,7 @@ publishDir = "docs"
 
   sections = ["showcase", "about", "testimonial", "contact"]
 
-  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+  googleTagManagerID = "GTM-52PTT8C" # Google Analytics works with Google Tag Manager
 
   [params.logo]
     text1 = "Dance"
