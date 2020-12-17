@@ -21,7 +21,7 @@
             dl = l != 'dataLayer' ? '&l=' + l : '';
         j.async = true;
         j.src =
-            'https://www.googletagmanager.com/gtm.js?id=GTM-52PTT8C' + i + dl;
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;
         f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-52PTT8C');
 </script>
@@ -236,7 +236,10 @@
 </head>
 
 <body>
-
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52PTT8C"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
 	<header class="header fixed-top rad-animation-group" id="header">
   <div class="container rad-fade-in">
     <nav class="navbar navbar-expand-lg navbar-light p-0">
@@ -557,3 +560,4 @@
 </body>
 
 </html>
+
